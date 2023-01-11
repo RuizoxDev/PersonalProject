@@ -1,6 +1,6 @@
 body{
     background-color: black;
-    font-family: 'Proxima Nova', sans-serif;
+    font-family: 'Proxi75ma Nova', sans-serif;
 }
 
 /* MENU */
@@ -36,7 +36,7 @@ nav a:first-child {
     right: 0;
     display: flex;
     padding: 10px;
-    left: 750px;
+    right: 30px;
     top: 40px;
 }
 
