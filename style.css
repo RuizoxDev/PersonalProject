@@ -1,6 +1,7 @@
 body{
     background-color: black;
     font-family: 'Proxi75ma Nova', sans-serif;
+    align-items: center;
 }
 
 /* MENU */
@@ -30,17 +31,17 @@ nav a:first-child {
 
 /* MENU DERECHA */
 
-.copiarIPnav{
+div.copiarIPnav{
     position: fixed;
     top: 0;
     right: 0;
     display: flex;
     padding: 10px;
-    right: 30px;
+    right: 280px;
     top: 40px;
 }
 
-.copiarIPnav span{
+div.copiarIPnav span{
     color: rgb(121, 25, 124)
 }
 
@@ -75,7 +76,3 @@ nav a:first-child {
 
 /* Header */
 
-#banner-container {
-    width: 100%;
-    height: auto;
-}
