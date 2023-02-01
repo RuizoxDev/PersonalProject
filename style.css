@@ -1,78 +1,29 @@
-body{
-    background-color: black;
-    font-family: 'Proxi75ma Nova', sans-serif;
-    align-items: center;
-}
-
-/* MENU */
-
-nav a {
-    position: relative;
-    left: 320px;
-    top: 40px;
-    display: inline-block;
-    padding: 10px;
-    background-color: rgb(0, 0, 0);
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-
-}
-
-nav a:first-child {
-    background-color: rgb(79, 79, 255);
-    border-radius: 6px;
-  }
-
-  nav a:hover {
-    background-color: rgb(79, 79, 255);
-    border-radius: 6px;
-  }
-
-/* MENU DERECHA */
-
-div.copiarIPnav{
-    position: fixed;
-    top: 0;
-    right: 0;
+header {
+    background-color: #333;
+    color: #fff;
     display: flex;
-    padding: 10px;
-    right: 280px;
-    top: 40px;
-}
-
-div.copiarIPnav span{
-    color: rgb(121, 25, 124)
-}
-
-#myButton {
-    background-color: #df71f5; /* color morado claro */
-    padding: 10px;
-    border-radius: 4px;
-    color: #8a4797; /* color blanco */
-    top: 20px; /* margen superior de 20px */
-    right: 20px; /* margen derecho de 20px */
-    font-weight: bold;
-}
-
-#myButton:hover {
-    background-color: #ea98fa; /* color morado más claro */
-}
-
-/* Boton discord */
-
-.discord-button {
-    position: absolute;
-    top: 10px;
-    left: -40px;
-    font-size: 24px;
-    color: white;
-    background-color: #5b77dd;
-    padding: 5px 8px;
-    border-radius: 4px;
-    text-align: center;
-}
-
-
-/* Header */
-
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+  }
+  
+  nav {
+    display: flex;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin: 0 20px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
