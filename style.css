@@ -1,29 +1,75 @@
+body{
+  background-color: rgb(0, 0, 0);
+  font-family: 'Proxi75ma Nova', sans-serif;
+}
+
+
 header {
-    background-color: #333;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80px;
-  }
-  
-  nav {
-    display: flex;
-  }
-  
-  ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-  }
-  
-  li {
-    margin: 0 20px;
-  }
-  
-  a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+}
+
+/* MENU */
+
+nav a {
+  padding: 10px;
+  background-color: rgb(0, 0, 0);
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav a:first-child {
+  background-color: rgb(79, 79, 255);
+  border-radius: 6px;
+}
+
+nav a:hover {
+  background-color: rgb(79, 79, 255);
+  border-radius: 6px;
+}
+
+/* MENU DERECHA */
+
+div.copiarIPnav{
+  position: relative;
+  display: flex;
+  padding: 10px;
+  padding-left: 50%;
+}
+
+div.copiarIPnav span{
+  color: rgb(121, 25, 124)
+}
+
+#myButton {
+  background-color: #df71f5; /* color morado claro */
+  padding: 10px;
+  border-radius: 4px;
+  color: #8a4797; /* color blanco */
+  top: 20px; /* margen superior de 20px */
+  right: 20px; /* margen derecho de 20px */
+  font-weight: bold;
+}
+
+#myButton:hover {
+  background-color: #ea98fa; /* color morado más claro */
+}
+
+/* Boton discord */
+
+.discord-button {
+  color: white;
+  background-color: #5b77dd;
+  padding: 5px 8px;
+  border-radius: 4px;
+}
+
+
